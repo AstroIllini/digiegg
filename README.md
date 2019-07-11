@@ -17,7 +17,7 @@ Younger kids might have fun building the landing systems, but may find it diffic
 
 ### Required Materials
 
-- Digiegg Microcontroller w/ DigieggSketch loaded (setup described below)
+- DigiEgg Microcontroller w/ DigieggSketch loaded (setup described below)
 - Bluetooth equipped iOS or Android phone with the [Bluefruit](https://learn.adafruit.com/bluefruit-le-connect/ios-setup) app installed.
 - Paper (3 sheet minimum per group of ~4-5)
 - Masking Tape
@@ -67,9 +67,9 @@ The microcontroller we use for this experiment is a [TinyDuino Basic Kit](https:
 ### Instructions for Using the App
 
 1. Download the Bluefruit app appropriate for your phone's operating system as described [here](https://learn.adafruit.com/bluefruit-le-connect/ios-setup).
-1. With the Digiegg microcontroller switch in the on position and power supplied via a USB cable or a coin battery, open the Bluefruit app and look for a device called "DigiEgg" in the list on the app's "Central Mode" page. Hit connect to establish a connection. This should open a new "Modules" page display options for interacting with the Digiegg.
-1. From the DigiEgg "Modules" page, select the "UART" option. You can use this to send a message to the Diggegg. The DigieggSketch you uploaded is written such that when the Digiegg receives ANY message, it will start transmitting acceleration values at a rate of X for X seconds.
-1. Once you have sent any message on the UART page, you will start to see accelerations printed to the screen. These are the total accelerations (absolute) in units internal to the microcontroller code. You can then go back to the "Modules" page and select the "Plotter" option. This will plot the accelerations as they are received from the Digiegg as a function of time. When you move the Digiegg, you should see changes in the accelerations. When the microcontroller is sitting still (such as on a counter), the acceleration plot should be flat.
+1. With the DigiEgg microcontroller switch in the on position and power supplied via a USB cable or a coin battery, open the Bluefruit app and look for a device called "DigiEgg" in the list on the app's "Central Mode" page. Hit connect to establish a connection. This should open a new "Modules" page display options for interacting with the DigiEgg.
+1. From the DigiEgg "Modules" page, select the "UART" option. You can use this to send a message to the Diggegg. The DigieggSketch you uploaded is written such that when the DigiEgg receives ANY message, it will start transmitting acceleration values at a rate of X for X seconds.
+1. Once you have sent any message on the UART page, you will start to see accelerations printed to the screen. These are the total accelerations (absolute) in units internal to the microcontroller code. You can then go back to the "Modules" page and select the "Plotter" option. This will plot the accelerations as they are received from the DigiEgg as a function of time. When you move the DigiEgg, you should see changes in the accelerations. When the microcontroller is sitting still (such as on a counter), the acceleration plot should be flat.
 
 
 ## Troubleshooting
